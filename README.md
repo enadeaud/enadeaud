@@ -13,7 +13,7 @@
 
 - [**tester-Libft**](https://github.com/enadeaud/tester-Libft) — Outil de test pour le projet Libft
 - [**Testeur-Codexion**](https://github.com/enadeaud/Testeur-Codexion) — Tests pour le projet Codexion
-- [**betise-piscine**](https://github.com/enadeaud/betise-piscine) — Exercices et expérimentations de la piscine 42
+- [**betise-piscine**](https://github.com/enadeaud/betise-piscine) — Dépôt de troll réalisé pour la piscine 42
 
 ## Technologies
 
