@@ -1,31 +1,43 @@
-# Salut, moi c'est Enadeaud 👋
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00BABC,100:7F52FF&height=140&section=header&text=Enadeaud&fontSize=48&fontColor=ffffff&fontAlignY=38" />
 
-Étudiant à **42**. J'apprends en construisant des outils pour comprendre comment les choses
-fonctionnent : testeurs de projets, réseaux, systèmes Unix, et maintenant le mobile.
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00BABC&center=true&vCenter=true&width=600&lines=Salut+%F0%9F%91%8B;%C3%89tudiant+%C3%A0+42;C+%C2%B7+Python+%C2%B7+Bash+%C2%B7+Kotlin" alt="Salut, étudiant à 42" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/42-%C3%89tudiant-000000?style=for-the-badge&logo=42&logoColor=white" />
+<img src="https://img.shields.io/badge/Linux-Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
+
+</div>
 
 ## 🛠️ Projets
 
-| Projet | Langage | Description |
-|---|---|---|
-| [**tester-Libft**](https://github.com/enadeaud/tester-Libft) 🐟 | C | Testeur « sardine » pour la libft (parties 1 à 3) : comparaison avec la libc, Valgrind, malloc mis en échec, fuzzing, vérification des fonctions externes et de la norme. |
-| [**Testeur-Codexion**](https://github.com/enadeaud/Testeur-Codexion) | Bash | Script de stress-test pour Codexion : build, norme, parsing des arguments, simulations fifo / edf, précision du burnout, Valgrind (memcheck, helgrind, drd). |
-| [**betise-piscine**](https://github.com/enadeaud/betise-piscine) | Python | Petite appli volontairement absurde de la piscine : une fenêtre Shrek qui se balade à l'écran. |
+| | Projet | Ce que ça fait |
+|:-:|---|---|
+| 🐟 | [**tester-Libft**](https://github.com/enadeaud/tester-Libft) | Testeur « sardine » : comparaison avec la libc, Valgrind, malloc mis en échec, fuzzing, norme |
+| ⚙️ | [**Testeur-Codexion**](https://github.com/enadeaud/Testeur-Codexion) | Stress-test de Codexion : simulations fifo / edf, précision du burnout, helgrind & drd |
+| 🟢 | [**betise-piscine**](https://github.com/enadeaud/betise-piscine) | Une fenêtre Shrek qui se balade à l'écran. Pourquoi pas. |
+| 📱 | **NetPractice Trainer** *(en cours)* | Appli Android pour s'entraîner à NetPractice : cours, quiz, exercices générés, mode défense |
 
-### 🚧 En cours
+## 💻 Stack
 
-- **NetPractice Trainer** — application Android hors ligne (Kotlin, Jetpack Compose) pour s'entraîner
-  à NetPractice : cours, quiz, exercices de routage générés à l'infini et mode défense chronométré.
+<div align="center">
 
-## 💻 Technologies
+<img src="https://skillicons.dev/icons?i=c,py,bash,kotlin,androidstudio,git,linux,ubuntu,vim&theme=dark" alt="C, Python, Bash, Kotlin, Android Studio, Git, Linux, Ubuntu, Vim" />
 
-`C` · `Python` · `Bash` · `Kotlin` · `Jetpack Compose` · `Git` · `Linux` · `Réseaux TCP/IP`
+</div>
 
-## 🎯 Ce qui m'intéresse
+## 📊 Activité
 
-- Réseaux et adressage IP, systèmes Unix, cybersécurité
-- Écrire des outils de test qui trouvent les vrais bugs (fuites, cas limites, crashs)
-- Comprendre un outil en le reconstruisant
+<div align="center">
 
-## 📫 Me trouver
+<img src="https://streak-stats.demolab.com?user=enadeaud&theme=tokyonight&hide_border=true&locale=fr" alt="Série de contributions" />
 
-- GitHub : [@enadeaud](https://github.com/enadeaud)
+<br/><br/>
+
+<img width="90%" src="https://ghchart.rshah.org/00BABC/enadeaud" alt="Graphe des contributions" />
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7F52FF,100:00BABC&height=100&section=footer" />
