@@ -18,6 +18,7 @@
 | | Projet | Ce que ça fait | |
 |:-:|---|---|:-:|
 | 🐟 | [**tester-Libft**](https://github.com/enadeaud/tester-Libft) | Testeur « sardine » : comparaison avec la libc, Valgrind, malloc mis en échec, fuzzing, norme | ![](https://img.shields.io/github/stars/enadeaud/tester-Libft?style=flat&label=%E2%AD%90&color=00BABC) |
+| 🐕 | [**Testeur-Printf**](https://github.com/enadeaud/Testeur-Printf) | Testeur « rubben » pour ft_printf : comparaison avec printf, bonus (flags, largeur), Valgrind, norme, README | ![](https://img.shields.io/github/stars/enadeaud/Testeur-Printf?style=flat&label=%E2%AD%90&color=00BABC) |
 | ⚙️ | [**Testeur-Codexion**](https://github.com/enadeaud/Testeur-Codexion) | Stress-test de Codexion : simulations fifo / edf, précision du burnout, helgrind & drd | ![](https://img.shields.io/github/stars/enadeaud/Testeur-Codexion?style=flat&label=%E2%AD%90&color=00BABC) |
 | 🟢 | [**betise-piscine**](https://github.com/enadeaud/betise-piscine) | Une fenêtre Shrek qui se balade à l'écran. Pourquoi pas. | ![](https://img.shields.io/github/stars/enadeaud/betise-piscine?style=flat&label=%E2%AD%90&color=00BABC) |
 | 📱 | **NetPractice Trainer** *(en cours)* | Appli Android pour s'entraîner à NetPractice : cours, quiz, exercices générés, mode défense | |
