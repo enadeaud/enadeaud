@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00BABC&center=true&vCenter=true&width=600&lines=Salut+%F0%9F%91%8B;%C3%89tudiant+%C3%A0+42;C+%C2%B7+Python+%C2%B7+Bash+%C2%B7+Kotlin" alt="Salut, étudiant à 42" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00BABC&center=true&vCenter=true&width=600&lines=Salut+%F0%9F%91%8B;%C3%89tudiant+%C3%A0+42;C+%C2%B7+Python+%C2%B7+Bash+%C2%B7+" alt="Salut, étudiant à 42" />
 
 <br/>
 
