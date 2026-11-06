@@ -1,28 +1,31 @@
 # Salut, moi c'est Enadeaud 👋
 
-Étudiant à **42**, je construis des projets pour progresser en développement logiciel, en algorithmique et en administration système.
+Étudiant à **42**. J'apprends en construisant des outils pour comprendre comment les choses
+fonctionnent : testeurs de projets, réseaux, systèmes Unix, et maintenant le mobile.
 
-## À propos de moi
+## 🛠️ Projets
 
-- 🎓 Étudiant à l'école 42
-- 💻 Développement principalement en **C** et **Python**
-- 🌐 Intérêt pour les réseaux, les systèmes Unix et la cybersécurité
-- 🧩 J'aime comprendre comment les outils fonctionnent et les reconstruire par la pratique
+| Projet | Langage | Description |
+|---|---|---|
+| [**tester-Libft**](https://github.com/enadeaud/tester-Libft) 🐟 | C | Testeur « sardine » pour la libft (parties 1 à 3) : comparaison avec la libc, Valgrind, malloc mis en échec, fuzzing, vérification des fonctions externes et de la norme. |
+| [**Testeur-Codexion**](https://github.com/enadeaud/Testeur-Codexion) | Bash | Script de stress-test pour Codexion : build, norme, parsing des arguments, simulations fifo / edf, précision du burnout, Valgrind (memcheck, helgrind, drd). |
+| [**betise-piscine**](https://github.com/enadeaud/betise-piscine) | Python | Petite appli volontairement absurde de la piscine : une fenêtre Shrek qui se balade à l'écran. |
 
-## Projets
+### 🚧 En cours
 
-- [**tester-Libft**](https://github.com/enadeaud/tester-Libft) — Outil de test pour le projet Libft
-- [**Testeur-Codexion**](https://github.com/enadeaud/Testeur-Codexion) — Tests pour le projet Codexion
-- [**betise-piscine**](https://github.com/enadeaud/betise-piscine) — Dépôt de troll réalisé pour la piscine 42
+- **NetPractice Trainer** — application Android hors ligne (Kotlin, Jetpack Compose) pour s'entraîner
+  à NetPractice : cours, quiz, exercices de routage générés à l'infini et mode défense chronométré.
 
-## Technologies
+## 💻 Technologies
 
-`C` · `Python` · `Bash` · `Git` · `Linux` · `Réseaux`
+`C` · `Python` · `Bash` · `Kotlin` · `Jetpack Compose` · `Git` · `Linux` · `Réseaux TCP/IP`
 
-## Me contacter
+## 🎯 Ce qui m'intéresse
+
+- Réseaux et adressage IP, systèmes Unix, cybersécurité
+- Écrire des outils de test qui trouvent les vrais bugs (fuites, cas limites, crashs)
+- Comprendre un outil en le reconstruisant
+
+## 📫 Me trouver
 
 - GitHub : [@enadeaud](https://github.com/enadeaud)
-
----
-
-*Merci de visiter mon profil !*
