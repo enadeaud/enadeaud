@@ -1,0 +1,42 @@
+name: Mise à jour du README
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  projets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Régénère le tableau des projets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          {
+            echo "<!-- PROJETS:DEBUT -->"
+            echo "| Projet | Ce que ça fait | Langage | ⭐ | Dernière maj |"
+            echo "|---|---|:-:|:-:|:-:|"
+            gh api "users/${{ github.repository_owner }}/repos?per_page=100&sort=pushed" --jq '
+              .[] | select(.fork | not) | select(.archived | not) | select(.name != "${{ github.event.repository.name }}")
+              | "| [**\(.name)**](\(.html_url)) | \((.description // "—") | gsub("\\|"; "\\|")) | \(.language // "—") | \(.stargazers_count) | \(.pushed_at[:10]) |"'
+            echo "<!-- PROJETS:FIN -->"
+          } > /tmp/bloc.md
+          awk 'FNR==NR { bloc = bloc $0 "\n"; next }
+               /PROJETS:DEBUT/ { printf "%s", bloc; skip = 1; next }
+               /PROJETS:FIN/ { skip = 0; next }
+               !skip' /tmp/bloc.md README.md > /tmp/README.md
+          mv /tmp/README.md README.md
+      - name: Commit si changement
+        run: |
+          git diff --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Met à jour la liste des projets"
+          git push
