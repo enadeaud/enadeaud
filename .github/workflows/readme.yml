@@ -33,10 +33,19 @@ jobs:
                /PROJETS:FIN/ { skip = 0; next }
                !skip' /tmp/bloc.md README.md > /tmp/README.md
           mv /tmp/README.md README.md
+      - name: Génère les images d'activité
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api graphql -F login="${{ github.repository_owner }}" -f query='
+            query($login: String!) { user(login: $login) { contributionsCollection { contributionCalendar {
+              totalContributions weeks { contributionDays { date contributionCount contributionLevel } } } } } }' > /tmp/contributions.json
+          python3 .github/scripts/activite.py /tmp/contributions.json activite
       - name: Commit si changement
         run: |
-          git diff --quiet && exit 0
+          git add -A
+          git diff --cached --quiet && exit 0
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git commit -am "Met à jour la liste des projets"
+          git commit -m "Met à jour le README (projets, activité)"
           git push

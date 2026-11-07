@@ -38,11 +38,11 @@
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=enadeaud&theme=tokyonight&hide_border=true&locale=fr" alt="Série de contributions" />
+<img src="activite/serie.svg" alt="Série de contributions" />
 
 <br/><br/>
 
-<img width="90%" src="https://ghchart.rshah.org/00BABC/enadeaud" alt="Graphe des contributions" />
+<img width="90%" src="activite/calendrier.svg" alt="Graphe des contributions" />
 
 </div>
 
